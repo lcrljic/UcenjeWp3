@@ -49,7 +49,7 @@ iban varchar(50)
 
 -- ako nešto pogriješim onda mogu obrisati tablicu pa ponovo kreirati
 --drop table predavaci;
---promjena reda
+
 
 create table clanovi(
 grupa int not null,

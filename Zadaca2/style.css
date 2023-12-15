@@ -1,0 +1,28 @@
+body{
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url('Images/bitcoin.jpg');
+	background-size: cover;
+}
+div{
+	border: dotted;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 10%;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 100px;
+}
+button{
+	background: white;
+	border: none;
+	padding: 2% 5%;
+	font-size: 26px;
+	color: red;
+	margin-bottom: 5%;
+}
+p{
+	margin: 5%;
+	line-height: 60px;
+}

@@ -39,6 +39,7 @@ create table Stavke(
 
 alter table Racuni add foreign key (kupac) references Kupci(sifra);
 alter table Stavke add foreign key (proizvod) references Proizvodi(sifra);
+alter table Stavke add foreign key (racun) references Racuni(sifra);
 
 insert into Proizvodi(naziv,cijena,datumNabave,aktivan) values
 ('Motorna pila','250.00','2024-01-23',1),

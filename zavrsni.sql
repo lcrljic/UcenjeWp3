@@ -42,11 +42,11 @@ alter table Stavke add foreign key (proizvod) references Proizvodi(sifra);
 alter table Stavke add foreign key (racun) references Racuni(sifra);
 
 insert into Proizvodi(naziv,cijena,datumNabave,aktivan) values
-('Motorna pila','250.00','2024-01-23',1),
-('Kosilica','360.00','2024-01-23',1),
-('Pumpa za vodu','340.00','2024-01-23',0),
-('Uređaj za bušenje','1250.00','2024-01-23',1),
-('Motorna kopačica','820.00','2024-01-23',0);
+('Motorna pila',250.00,'2024-01-23',1),
+('Kosilica',360.00,'2024-01-23',1),
+('Pumpa za vodu',340.00,'2024-01-23',0),
+('Uređaj za bušenje',1250.00,'2024-01-23',1),
+('Motorna kopačica',820.00,'2024-01-23',0);
 
 insert into Kupci(ime,prezime,mjesto,ulicaIBroj,brojMobitela) values
 ('Luka','Crljić','Osijek','Vukovarska 50','091/234-5678'),
@@ -63,8 +63,8 @@ insert into Racuni(kupac,datum,statusRacuna) values
 (5,'2024-01-23','Izdan');
 
 insert into Stavke(racun,proizvod,kolicina,cijena) values
-(1,1,'2','250.00'),
-(2,2,'5','350.00'),
-(3,3,'1','340.00'),
-(4,4,'3','1260.00'),
-(5,5,'2','820.00');
+(1,1,2,250.00),
+(2,2,5,350.00),
+(3,3,1,340.00),
+(4,4,3,1260.00),
+(5,5,2,820.00);

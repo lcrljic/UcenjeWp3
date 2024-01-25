@@ -3,4 +3,4 @@ Console.WriteLine("Unesi ime: ");
 
 Ime = Console.ReadLine();
 
-Console.WriteLine(Ime)
+Console.WriteLine(Ime);

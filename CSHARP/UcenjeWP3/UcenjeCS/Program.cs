@@ -20,4 +20,16 @@ using UcenjeCS;
 
 //E06ForPetlja.Izvedi();
 
-Z04.Izvedi();
+//Z04.Izvedi();
+
+//Z05.Izvedi();
+
+//Z06.Izvedi();
+
+//Z07.Izvedi();
+
+//E07WhilePetlja.Izvedi();
+
+//E08DoWhilePetlja.Izvedi();
+
+E09ForeachPetlja.Izvedi();

@@ -63,6 +63,42 @@ namespace UcenjeCS
                 }
                 Console.WriteLine();
             }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 3)
+                {
+                    continue; //shortcuirciting
+                }
+                Console.WriteLine(i);
+            }
+
+            for(int i = 0; i < 10; i++)
+            {
+                if(i == 3)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+
+            for(int i=0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    goto labela;
+                    //break;
+                }
+            }
+
+            labela:
+            Console.WriteLine("Nastavljam nakon vanjske petlje");
+
+            for (; ; )
+            {
+                Console.WriteLine(new Random().NextInt64(1,100));
+                break;
+            }
         }
     }
 }

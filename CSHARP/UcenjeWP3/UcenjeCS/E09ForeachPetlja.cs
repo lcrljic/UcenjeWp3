@@ -16,22 +16,23 @@ namespace UcenjeCS
             {
                 Console.WriteLine(Grad[i]);
             }
-            
-            foreach(var c in Grad)
+
+            foreach (var c in Grad)
             {
                 Console.WriteLine(c);
             }
 
-            for (int i = Grad.Length-1; i >= 0; i--) 
+            for (int i = Grad.Length - 1; i >= 0; i--)
             {
                 Console.Write(Grad[i]);
             }
 
-            int[] Niz=new int[] { 2, 3, 4, 5, 6, 76, 78 };
+            int[] Niz = new int[] { 2, 3, 4, 5, 6, 76, 78 };
 
-            foreach(var i in Niz) 
+            foreach (var i in Niz)
             {
                 Console.WriteLine(i);
             }
+        }
     }
 }

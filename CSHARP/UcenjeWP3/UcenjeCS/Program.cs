@@ -32,4 +32,6 @@ using UcenjeCS;
 
 //E08DoWhilePetlja.Izvedi();
 
-E09ForeachPetlja.Izvedi();
+//E09ForeachPetlja.Izvedi();
+
+Subota1.Izvedi();

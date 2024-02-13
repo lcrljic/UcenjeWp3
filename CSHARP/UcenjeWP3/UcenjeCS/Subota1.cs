@@ -78,34 +78,57 @@ namespace UcenjeCS
             //    }
             //}
             //Console.WriteLine(Pocinje ? "SUPER" : "OK");
+            int a;
 
-            //while (true) 
-            //{
-            //    Console.WriteLine("Unesi opciju:\n1 - KN u EUR\n2 - EUR u KN");
-            //    int a = int.Parse(Console.ReadLine());
-            //    if (a == 1 || a == 2)
-            //    {
-            //        break;
-            //    }
-            //    Console.WriteLine("Neispravna opcija");
-            //}
-            //if ( a == 1)
-            //{
-            //    Console.WriteLine("Unesi koliko kuna pretvaraš u eure: ");
-            //    double b = double.Parse(Console.ReadLine());
-            //    Console.WriteLine("Iznos unesenih kuna u eurima: " + b * 7.53450);
-            //} else if (a == 2)
-            //{
-            //    Console.WriteLine("Unesi koliko eura pretvaraš u kune: ");
-            //    double b = double.Parse(Console.ReadLine());
-            //    Console.WriteLine("Iznos unesenih kuna u eurima: " + b / 7.53450);
-            //}
+            while (true)
+            {
+                Console.WriteLine("Unesi opciju:\n1 - KN u EUR\n2 - EUR u KN");
+                //a = int.Parse(Console.ReadLine());
+                string unos = Console.ReadLine();
+                if (int.TryParse(unos, out a) && (a == 1 || a == 2))
+                {
+                    break;
+                }
+                Console.WriteLine("Neispravna opcija");
+            }
+            while (true)
+            {
+                double b = 0;
+                if (a == 1)
+                {
+                    Console.WriteLine("Unesi koliko kuna pretvaraš u eure: ");
+                }
+                else
+                {
+                    Console.WriteLine("Unesi koliko eura pretvaraš u kune: ");
+                }
 
-            //int i = int.Parse(Console.ReadLine());
+                string unos = Console.ReadLine();
+                bool provjeraJeliBroj = double.TryParse(unos, out b);
+                if (provjeraJeliBroj && b >= 0)
+                {
+                    if (a == 1)
+                    {
+                        Console.WriteLine("Iznos unesenih kuna u eurima: " + b / 7.53450);
+                    }
+                    else // tj ako je a == 2
+                    {
+                        Console.WriteLine("Iznos unesenih eura u kunama: " + b * 7.53450);
+                    }
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Krivi unos");
+                    }
+                }
 
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("EDUNOVA");
-            Console.ResetColor();
-        }
+                //int i = int.Parse(Console.ReadLine());
+
+                //Console.ForegroundColor = ConsoleColor.Red;
+                //Console.WriteLine("EDUNOVA");
+                //Console.ResetColor();
+            }
+        
     }
 }

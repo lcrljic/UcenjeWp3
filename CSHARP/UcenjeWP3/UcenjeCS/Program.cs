@@ -34,10 +34,14 @@ using UcenjeCS;
 
 //E09ForeachPetlja.Izvedi();
 
-Subota1.Izvedi();
+//Subota1.Izvedi();
 
 //E10Metode.Izvedi();
 
 //Z08.Izvedi();
 
 //Z09.Izvedi();
+
+//E11Rekurzija.Izvedi();
+
+UcenjeCS.E12KlasaObjekt.Program.Izvedi();

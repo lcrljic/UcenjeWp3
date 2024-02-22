@@ -44,4 +44,7 @@ using UcenjeCS;
 
 //E11Rekurzija.Izvedi();
 
-UcenjeCS.E12KlasaObjekt.Program.Izvedi();
+//UcenjeCS.E12KlasaObjekt.Program.Izvedi();
+
+//Kada vidimo ključnu rjieč new poziva se konstruktor
+new UcenjeCS.E13Nasljedivanje.Program(); //Pozvao sam konstruktor od Programa u E13

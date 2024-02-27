@@ -2,6 +2,8 @@
 
 using UcenjeCS;
 
+//CiklicnaMatrica.Izvedi();
+
 //E01UlazIzlaz.Izvedi();
 
 //E02VarijableTipoviPodatakaOperatori.Izvedi();
@@ -47,4 +49,6 @@ using UcenjeCS;
 //UcenjeCS.E12KlasaObjekt.Program.Izvedi();
 
 //Kada vidimo ključnu rjieč new poziva se konstruktor
-new UcenjeCS.E13Nasljedivanje.Program(); //Pozvao sam konstruktor od Programa u E13
+//new UcenjeCS.E13Nasljedivanje.Program(); //Pozvao sam konstruktor od Programa u E13
+
+new UcenjeCS.E14VjezbanjeRadaSObjektima.Program();

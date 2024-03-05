@@ -51,4 +51,16 @@ using UcenjeCS;
 //Kada vidimo ključnu rjieč new poziva se konstruktor
 //new UcenjeCS.E13Nasljedivanje.Program(); //Pozvao sam konstruktor od Programa u E13
 
-new UcenjeCS.E14VjezbanjeRadaSObjektima.Program();
+//new UcenjeCS.E14VjezbanjeRadaSObjektima.Program();
+
+//new UcenjeCS.E15Polimorfizam.Program();
+
+//new UcenjeCS.E16Vjezbanje.Program();
+
+//new UcenjeCS.E17KonzolnaAplikacija.Izbornik();
+
+//new UcenjeCS.E18Lambda.Program();
+
+//new UcenjeCS.E19Delegati.Program();
+
+new UcenjeCS.E20Ekstenzije.Program();

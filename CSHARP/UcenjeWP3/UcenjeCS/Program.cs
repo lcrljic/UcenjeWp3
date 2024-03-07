@@ -2,7 +2,7 @@
 
 using UcenjeCS;
 
-CiklicnaMatrica.Izvedi();
+//CiklicnaMatrica.Izvedi();
 
 //E01UlazIzlaz.Izvedi();
 

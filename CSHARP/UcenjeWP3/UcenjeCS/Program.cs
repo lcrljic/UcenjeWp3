@@ -2,7 +2,7 @@
 
 using UcenjeCS;
 
-//CiklicnaMatrica.Izvedi();
+CiklicnaMatrica.Izvedi();
 
 //E01UlazIzlaz.Izvedi();
 
@@ -63,4 +63,4 @@ using UcenjeCS;
 
 //new UcenjeCS.E19Delegati.Program();
 
-new UcenjeCS.E20Ekstenzije.Program();
+//new UcenjeCS.E20Ekstenzije.Program();

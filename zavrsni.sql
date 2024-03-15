@@ -1,4 +1,16 @@
-﻿use master;
+﻿SELECT name, collation_name FROM sys.databases;
+GO
+ALTER DATABASE db_aa679e_stihlwebshop SET SINGLE_USER WITH
+ROLLBACK IMMEDIATE;
+GO
+ALTER DATABASE db_aa679e_stihlwebshop COLLATE Croatian_CI_AS;
+GO
+ALTER DATABASE db_aa679e_stihlwebshop SET MULTI_USER;
+GO
+SELECT name, collation_name FROM sys.databases;
+GO
+
+use master;
 go
 drop database if exists zavrsni;
 go

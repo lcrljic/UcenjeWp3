@@ -1,10 +1,12 @@
 import axios from "axios";
 
+
 export const HttpService = axios.create({
 
-    baseURL: 'lcrljic-001-site1.ktempurl.com',
+    baseURL: 'https://tjakopec-001-site1.ftempurl.com/api/v1',
     headers: {
         'Content-Type' : 'application/json'
     }
+
 
 });

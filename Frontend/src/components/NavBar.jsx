@@ -26,7 +26,9 @@ export default function NavBar(){
                     target='_blank'>API</Nav.Link>
                     
                     <NavDropdown title="Programi" id="collapsible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Smjerovi</NavDropdown.Item>
+                    <NavDropdown.Item 
+                    onClick={()=>navigate(RoutesNames.SMJER_PREGLED)}
+                    >Smjerovi</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">
                        Polaznici
                     </NavDropdown.Item>

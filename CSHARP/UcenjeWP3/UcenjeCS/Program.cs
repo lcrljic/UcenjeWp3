@@ -2,6 +2,8 @@
 
 using UcenjeCS;
 
+//LjubavniKalkulator.Izvedi();
+
 //CiklicnaMatrica.Izvedi();
 
 //E01UlazIzlaz.Izvedi();
